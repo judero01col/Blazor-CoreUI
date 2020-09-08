@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "filesystem",
+      "library": "node_modules/@coreui/coreui/dist/js/",
+      "destination": "wwwroot/lib/@coreui/coreui/dist/js/",
+      "files": [ "coreui.bundle.min.js", "coreui.bundle.min.js.map" ]
+    },
+    {
+      "provider": "filesystem",
+      "library": "node_modules/@coreui/coreui/dist/css/",
+      "destination": "wwwroot/lib/@coreui/coreui/dist/css/",
+      "files": [ "coreui.min.css", "coreui.min.css.map" ]
+    },
+    {
+      "provider": "filesystem",
+      "library": "node_modules/@coreui/icons/js/",
+      "destination": "wwwroot/lib/@coreui/icons/js/",
+      "files": [ "svgxuse.min.js" ]
+    },
+    {
+      "provider": "filesystem",
+      "library": "node_modules/@coreui/utils/dist/",
+      "destination": "wwwroot/lib/@coreui/utils/dist/",
+      "files": [ "coreui-utils.js" ]
+    },
+    {
+      "provider": "filesystem",
+      "library": "node_modules/@coreui/chartjs/dist/js/",
+      "destination": "wwwroot/lib/@coreui/chartjs/dist/js/",
+      "files": [ "coreui-chartjs.bundle.js", "coreui-chartjs.bundle.min.js", "coreui-chartjs.bundle.min.js.map" ]
+    },
+    {
+      "provider": "filesystem",
+      "library": "node_modules/@coreui/chartjs/dist/css/",
+      "destination": "wwwroot/lib/@coreui/chartjs/dist/css/",
+      "files": [ "coreui-chartjs.css", "coreui-chartjs.min.css", "coreui-chartjs.min.css.map" ]
+    },
+    {
+      "provider": "filesystem",
+      "library": "node_modules/@coreui/icons/sprites/",
+      "destination": "wwwroot/lib/@coreui/icons/sprites/",
+      "files": [ "brand.svg", "free.svg", "flag.svg" ]
+    }
+  ]
+} 

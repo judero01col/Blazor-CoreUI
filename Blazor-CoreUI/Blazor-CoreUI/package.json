@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "@coreui/chartjs": "^2.0.0",
+    "@coreui/coreui": "^3.2.0",
+    "@coreui/icons": "^1.0.1",
+    "@coreui/utils": "^1.2.4",
+    "@popperjs/core": "^2.4.0",
+    "chart.js": "^2.9.3",
+    "perfect-scrollbar": "1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "engines": {
+    "node": ">=6"
+  },
+  "browserslist": [
+    "last 1 major version",
+    ">= 1%",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ]
+}
